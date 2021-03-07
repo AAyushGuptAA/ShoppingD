@@ -12,3 +12,6 @@ cd ShoppingD
 ```
 pip install -r requirements.txt
 ```
+
+## Project Images
+![landingPage.png](https://github.com/AAyushGuptAA/ShoppingD/blob/main/images/landingPage.png?raw=true)
