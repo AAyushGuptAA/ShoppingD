@@ -1,1 +1,1 @@
-# ShoppingD
+# E-commerce app project
