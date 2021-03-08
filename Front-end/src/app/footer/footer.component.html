@@ -1,0 +1,33 @@
+<div class="bg-dark container-fluid-md">
+    <div class="p-3 justify-content-around row">
+        <div class="col-md-3">
+            <p class="text-uppercase h2 m-2 p-1 text-secondary" style="font-family: 'Graduate', cursive;">shopper's stop</p>
+            <p class="p-1 text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
+        </div>
+        <div class="col-md-3 my-3">
+            <div class="row">
+                <div class="col-md-6 list-unstyled text-capitalize">
+                    <a class="row text-white" routerLink={{left_links_page[idx]}} *ngFor="let link of left_links, index as idx">{{link}}</a>
+                </div>
+                <div class="col-md-6 list-unstyled text-capitalize">
+                    <a class="row text-white" routerLink={{right_links_page[idx]}} *ngFor="let link of right_links, index as idx">{{link}}</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 my-3 mx-sm-2">
+            <label for="newsletter" class="row h4 text-uppercase text-light">newsletter</label>
+            <div class="row">
+                <input type="email" class="border-0 col-8 shadow px-2 py-3" [placeholder]="placeholderText">
+                <button class="btn btn-primary col-4 text-uppercase border-0 rounded-0 shadow font-weight-bold px-2 py-3">sign up</button>
+            </div>
+        </div>
+    </div>
+    <div class="p-2 justify-content-around row">
+        <p class="col-11 text-white h3 font-weight-bold mb-0">FOLLOW US</p>
+        <div class="col-11 text-white">
+            <a class="fa fa-facebook-official fa-2x mr-1" href="https://www.facebook.com"></a>
+            <a class="fa fa-twitter-square fa-2x mx-1" href="https://twitter.com/"></a>
+            <a class="fa fa-instagram fa-2x ml-1" href="https://www.instagram.com/"></a>
+        </div>
+    </div>
+</div>

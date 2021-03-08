@@ -1,0 +1,28 @@
+<div class="container-fluid px-2 py-1 shadow-sm m-0">
+    <nav class="navbar navbar-light navbar-expand-md">
+        <p class="text-uppercase h1 mx-2 p-1 text-primary" style="font-family: 'Graduate', cursive;">shopper's stop</p>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span></button>
+        <div class="m-1 py-1 collapse navbar-collapse" id="myNavbar">
+            <ul class="ml-4 navbar-nav">
+                <a class="nav-link h5 text-uppercase text-dark" routerLink={{page[idx]}} *ngFor="let link of links, index as idx">{{link}}</a>
+            </ul>
+            <ul class="navbar-nav ml-md-auto ml-4 d-inline">
+                <!-- In following, above medium size right margin = 0. On screens which are shorter than medium right margin = 8px -->
+                <a class="nav-link h5 text-dark mr-md-0 mr-2 d-inline" href={{link}}>{{Text}}</a>
+                <!-- <a class="nav-link fa fa-user fa-lg text-dark mr-md-0 mx-2" data-toggle="collapse" href="#list"></a> -->
+                <div class="panel panel-default d-inline">
+                    <a data-toggle="collapse" href="#collapse1"><span class="nav-link fa fa-user fa-lg text-dark mx-md-0 mx-2"></span></a>
+                    <div id="collapse1" class="panel-collapse collapse position-absolute mr-5">
+                        <ul class="list-group d-flex flex-md-column flex-row">
+                            <a class="list-group-item-info p-2 h5" routerLink="/profile-page" style="white-space: nowrap;">Profile Details</a>
+                            <a class="list-group-item-secondary p-2 h5" routerLink="/history-page">Order History</a>
+                            <a class="list-group-item-danger p-2 h6" href="#" (click)="logout()">LOGOUT</a>
+                        </ul>
+                    </div>
+                </div>
+                <a class="nav-link fa fa-shopping-cart fa-lg text-dark ml-md-0 ml-2" routerLink="/details-page"></a>
+            </ul>
+        </div>
+    </nav>
+</div>
