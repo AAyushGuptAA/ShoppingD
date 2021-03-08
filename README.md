@@ -25,3 +25,9 @@ pip install -r requirements.txt
 ## Project Images
 ### Landing/HOME page
 ![landingPage.png](https://github.com/AAyushGuptAA/ShoppingD/blob/main/images/landingPage.png?raw=true)
+
+### Create Account page
+![CreateAccountPage.png](https://github.com/AAyushGuptAA/ShoppingD/blob/main/images/CreateAccountPage.png?raw=true)
+
+### Cart details page
+![CartDetailsPage.png](https://github.com/AAyushGuptAA/ShoppingD/blob/main/images/CartDetailsPage.png?raw=true)
