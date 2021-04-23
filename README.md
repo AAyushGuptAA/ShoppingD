@@ -13,6 +13,9 @@ cd ShoppingD
 pip install -r requirements.txt
 ```
 
+## Setting up the database
+Create a database named **shopstop** inside it create collections __Video__, __bestProducts__, __mens__, __users__, __women__ and import the json files corresponding to each collection
+
 ## Technologies used
 - HTML, CSS, Bootstrap
 - TypeScript
