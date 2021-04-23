@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "60266458e7f04040f2e0c205"
+  },
+  "Name": "ayush",
+  "Email ID": "a@a.com",
+  "Password": "1221",
+  "Mobile Number": "2342332",
+  "Orders": [],
+  "Cart": []
+},{
+  "_id": {
+    "$oid": "60445f802e582641bca29aae"
+  },
+  "Name": "Logan",
+  "Email ID": "1@1.com",
+  "Password": "134512",
+  "Mobile Number": "328974328",
+  "Cart": [],
+  "Orders": []
+}]

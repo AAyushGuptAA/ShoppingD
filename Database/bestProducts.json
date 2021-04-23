@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "6026b09068c1963ea4112da8"
+  },
+  "cost": 599,
+  "title": "Navy sweatshirt",
+  "src": "best-seller-2.jpg",
+  "ItemId": "jacket10",
+  "Details": {},
+  "pindex": -1.6
+},{
+  "_id": {
+    "$oid": "6026b0d568c1963ea4112da9"
+  },
+  "cost": 399,
+  "title": "White top for women",
+  "src": "best-seller-3.jpg",
+  "ItemId": "topw2",
+  "Details": {},
+  "pindex": 0.1
+},{
+  "_id": {
+    "$oid": "6026b0f468c1963ea4112daa"
+  },
+  "cost": 699,
+  "title": "Women Trouser",
+  "src": "best-seller-4.jpeg",
+  "ItemId": "topw3",
+  "Details": {},
+  "pindex": -1.8
+},{
+  "_id": {
+    "$oid": "6026b10668c1963ea4112dab"
+  },
+  "cost": 699,
+  "title": "Men Trouser",
+  "src": "best-seller-5.jpeg",
+  "ItemId": "jacket12",
+  "Details": {},
+  "pindex": -4.8
+},{
+  "_id": {
+    "$oid": "6026b13f68c1963ea4112dac"
+  },
+  "cost": 1099,
+  "title": "Black Coat",
+  "src": "best-seller-6.jpeg",
+  "ItemId": "jacket13",
+  "Details": {},
+  "pindex": 5
+},{
+  "_id": {
+    "$oid": "6026b16568c1963ea4112dad"
+  },
+  "cost": 999,
+  "title": "Blue Windcheater",
+  "src": "best-seller-7.jpeg",
+  "ItemId": "jacket14",
+  "Details": {},
+  "pindex": 3
+},{
+  "_id": {
+    "$oid": "6026b1a668c1963ea4112dae"
+  },
+  "cost": 999,
+  "title": "Winter Jacket",
+  "src": "best-seller-8.jpeg",
+  "ItemId": "jacket11",
+  "Details": {},
+  "pindex": -2.1
+},{
+  "_id": {
+    "$oid": "6026b7a568c1963ea4112daf"
+  },
+  "cost": 499,
+  "title": "Black Hoodie for men",
+  "src": "best-seller-1.jpg",
+  "ItemId": "jacket15",
+  "Details": {},
+  "pindex": 1.1
+},{
+  "_id": {
+    "$oid": "602ea5b720bd321f4cf04821"
+  },
+  "title": "Stylish windbreaker for women",
+  "src": "best-seller-9.jpg",
+  "cost": 599,
+  "ItemId": "topw4",
+  "Details": {},
+  "pindex": 5
+},{
+  "_id": {
+    "$oid": "6045e04e0519b0e4e2d4029f"
+  },
+  "title": "Stylish cutwork Blouse",
+  "cost": "599",
+  "ItemId": "topw5",
+  "src": "best-seller-12.jpg",
+  "Details": {},
+  "pindex": 3.3
+},{
+  "_id": {
+    "$oid": "6045e0e50519b0e4e2d402a0"
+  },
+  "ItemId": "hat11",
+  "title": "Black Balaclava Cap",
+  "cost": "229",
+  "src": "best-seller-10.jpg",
+  "Details": {},
+  "pindex": 0.1
+},{
+  "_id": {
+    "$oid": "6045e11f0519b0e4e2d402a1"
+  },
+  "ItemId": "hat12",
+  "title": "Large Canvas Trapper Hat",
+  "cost": "199",
+  "src": "best-seller-11.jpeg",
+  "Details": {},
+  "pindex": -0.4
+},{
+  "_id": {
+    "$oid": "6045e1544fd9284574268116"
+  },
+  "title": "Home-cover",
+  "src": "Home_Cover_img.jpg"
+}]
