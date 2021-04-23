@@ -1,0 +1,64 @@
+<ion-header>
+    <app-header></app-header>
+</ion-header>
+
+<ion-content>
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-md-5 border border-white">
+                <img [src]="member.imgsrc">
+            </div>
+            <div class="col-md-7">
+                <div class="row mb-3">
+                    <div class="col-md-12 font-weight-bold h5">{{member.title}}</div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-12 font-weight-bold">{{member.cost |currency:'INR'}}</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-secondary small">SIZE</div>
+                </div>
+                <div class="row pl-3 mb-3">
+                    <button class="btn border border-secondary text-secondary rounded-0 py-1 px-4 mr-1 h4 btn-lg">SMALL</button>
+                    <button class="btn border border-secondary text-secondary rounded-0 py-1 px-4 mx-1 h4 btn-lg">MEDIUM</button>
+                    <button class="btn border border-secondary text-secondary rounded-0 py-1 px-4 ml-1 h4 btn-lg">LARGE</button>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-12 text-success h4">In Stock</div>
+                </div>
+                <div class="row pl-3 mb-3">
+                    <button class="col-md-4 btn btn-primary rounded-0 h4 py-2 font-weight-bold" (click)="order()">ADD TO CART</button>
+                </div>
+                <div class="row pl-3 mb-3">
+                    <div class="pr-3">
+                        <div class="row m-0">
+                            <i class="fa fa-plane fa-2x mr-2 text-info"></i>
+                            <p class="small text-dark d-inline font-weight-bold">Orders ship<br><span class="text-secondary">5 business days</span></p>
+                        </div>
+                    </div>
+                    <div class="pr-3">
+                        <div class="row m-0">
+                            <i class="fa fa-truck fa-flip-horizontal fa-2x mr-2 text-info"></i>
+                            <p class="small text-dark d-inline font-weight-bold">Free<br><span class="text-secondary">Shipping</span></p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="row m-0">
+                            <i class="fa fa-thumbs-o-up fa-2x mr-2 text-info"></i>
+                            <p class="small text-dark d-inline font-weight-bold">30 Days<br><span class="text-secondary">Return & Refund</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 font-weight-bold">PRODUCT DETAILS</div>
+                    <hr class="col-md-8 ml-2 my-0 mr-0 border border-left-0 border-right-0 border-top-0 border-secondary">
+                </div>
+                <div class="row pl-3 mt-2">
+                    <!-- *nfFor -->
+                    <p>Give product details</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <app-footer></app-footer>
+</ion-content>

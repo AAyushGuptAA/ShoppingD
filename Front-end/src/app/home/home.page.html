@@ -1,0 +1,20 @@
+<ion-header>
+    <app-header></app-header>
+</ion-header>
+<ion-content>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 px-3 py-2 border mt-5 mb-4">
+                <p class="col-md-12 text-center h4">Sign up with Shopper's Stop</p>
+                <input [(ngModel)]="CustomerInfo[placeholderText[i]]" class="col-md-12 my-2 px-2 py-1" [type]="inputTypes[i]" *ngFor="let i of [0, 1, 2, 3]" [placeholder]="placeholderText[i]">
+                <button class="col-md-12 text-uppercase btn btn-primary rounded-0 shadow" routerLink="/login-page" (click)="addUser()">Create an account</button>
+                <p class="text-secondary text-center">Already have an account? <a class="text-primary" routerLink="/login-page">Login</a></p>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <ion-footer>
+        <app-footer></app-footer>
+    </ion-footer>
+</ion-content>
