@@ -32,5 +32,8 @@ Create a database named **shopstop** inside it create collections __Video__, __b
 ### Create Account page
 ![CreateAccountPage.png](https://github.com/AAyushGuptAA/ShoppingD/blob/main/images/CreateAccountPage.png?raw=true)
 
+### Login Page
+![LoginPage.png](https://github.com/AAyushGuptAA/ShoppingD/blob/main/images/LoginPage.png?raw=true)
+
 ### Cart details page
 ![CartDetailsPage.png](https://github.com/AAyushGuptAA/ShoppingD/blob/main/images/CartDetailsPage.png?raw=true)
