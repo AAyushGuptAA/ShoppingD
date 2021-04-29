@@ -18,7 +18,6 @@ export class ApicallService {
   private usercarturl: string = environment.server_url + "/main/cartLis/";
   private cartaddurl: string = environment.server_url + "/main/cartmodify/";
   private userordersurl: string = environment.server_url + "/main/ordersmodify/";
-  private getdemovideo: string = environment.server_url + "/products/demo/";
   
   constructor(private http: HttpClient) { }
 
@@ -78,9 +77,5 @@ export class ApicallService {
     // Add the products to user's cart.
     const body= {'todo':'add', 'cart':products, 'usernumber': usernumber};
     return this.http.post(this.cartaddurl, body);
-  }
-  reqDemo(){
-    // Get the demo video
-    return this.http.get(this.getdemovideo);
   }
 }

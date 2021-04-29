@@ -17,7 +17,3 @@ def women(request):
 def hats(request):
     data = prod.getHatProducts()
     return JsonResponse(data)
-
-def demo(request):
-    data = prod.demoVideo()
-    return JsonResponse(data)

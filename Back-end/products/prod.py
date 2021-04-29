@@ -43,10 +43,3 @@ def getHatProducts():
     mencolldocs = list(mencoll.find())
     products = {"hats":{"men":mencolldocs[0]["hats"], "women":womencolldocs[0]["hats"]}}
     return products
-
-def demoVideo():
-    db = initDB()
-    videocoll = db.Video
-    videocolldocs = list(videocoll.find())
-    link = {"src": videocolldocs[0]["src"]}
-    return link

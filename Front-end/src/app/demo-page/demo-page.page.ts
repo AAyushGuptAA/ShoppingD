@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {ApicallService} from 'src/app/apicall.service';
-import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-demo-page',
@@ -9,13 +7,9 @@ import { environment } from 'src/environments/environment';
 })
 export class DemoPagePage implements OnInit {
 
-  link = "";
-  constructor(private result: ApicallService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.result.reqDemo().subscribe(res =>{
-      this.link = environment.server_url + "/static/" + res["src"];
-    })
   }
 
 }
