@@ -1,6 +1,6 @@
 # E-commerce app
 ## Objective
-Make a fully functioning E-Commerce app.
+Make a fully functioning E-Commerce app and deploy it on AWS server. URL for the website is https://ayush.autonise.com.
 
 ## Clone the repository
 ```
